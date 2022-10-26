@@ -1,0 +1,14 @@
+[
+    {"model": "sim_app.phonenumber",
+    "fields": {
+        "sim_network": 5, 
+        "phone_number": "0908"
+             }
+    },
+    {"model": "sim_app.phonenumber",  
+    "fields": {
+        "sim_network": 7, 
+        "phone_number": "0907"
+            }
+    }
+]
