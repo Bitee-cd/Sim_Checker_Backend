@@ -1,9 +1,0 @@
-[
-    {"model": "sim_app.simnetwork", "pk": 1, "fields": {"sim_name": "MTN", "pub_date": "2022-09-02T11:15:30.092Z"}}, 
-    {"model": "sim_app.simnetwork", "pk": 3, "fields": {"sim_name": "Airtel", "pub_date": "2022-10-24T21:24:05Z"}}, 
-    {"model": "sim_app.simnetwork", "pk": 5, "fields": {"sim_name": "Globacom", "pub_date": "2022-10-24T21:24:49Z"}}, 
-    {"model": "sim_app.simnetwork", "pk": 6, "fields": {"sim_name": "Smile", "pub_date": "2022-10-24T21:25:05Z"}}, 
-    {"model": "sim_app.simnetwork", "pk": 7, "fields": {"sim_name": "Multi-Links", "pub_date": "2022-10-24T21:25:25Z"}}, 
-    {"model": "sim_app.simnetwork", "pk": 8, "fields": {"sim_name": "9mobile", "pub_date": "2022-10-24T21:25:51Z"}}, 
-    {"model": "sim_app.simnetwork", "pk": 9, "fields": {"sim_name": "Starcomms", "pub_date": "2022-10-24T21:26:15Z"}}, 
-    {"model": "sim_app.simnetwork", "pk": 10, "fields": {"sim_name": "ZoomMobile", "pub_date": "2022-10-24T21:27:09Z"}}]
