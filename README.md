@@ -45,20 +45,20 @@ Start the server
 
 #### Get all Routes of API
 
-```http
+```
   GET https://sim-checker.vercel.app/phone_number/details/
 ```
 
 #### Get all phone numbers
 
-```http
+```
   GET https://sim-checker.vercel.app/phone_number/
 ```
 
 
 #### Get all sim networks 
 
-```http
+```
   GET https://sim-checker.vercel.app/phone_number/sim/
 ```
 
@@ -66,18 +66,19 @@ Start the server
 
 #### Get Details using Id
 
-```http
+```
   GET https://sim-checker.vercel.app/phone_number/${id}
 ```
 
 #### Find Details using Phone Number
 
-```http
+```
   GET https://sim-checker.vercel.app/phone_number/find/${phone_number}
 ```
 
-| Parameter |First 4 digits of a phone number OR First 5 digits for numbers starting with 0702       |
-| Returns 
+ Parameter 
+ - First 4 digits of a phone number OR First 5 digits for numbers starting with 0702       
+ Returns 
  - Json file containing data(details of number) and message successful
  - error 404 if number not found with a message
 
