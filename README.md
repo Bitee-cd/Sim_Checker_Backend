@@ -77,7 +77,9 @@ Start the server
 ```
 
  Parameter 
- - First 4 digits of a phone number OR First 5 digits for numbers starting with 0702       
+ - First 4 digits of a phone number OR First 5 digits for numbers starting with 0702 
+ 
+       
  Returns 
  - Json file containing data(details of number) and message successful
  - error 404 if number not found with a message
