@@ -6,5 +6,6 @@ urlpatterns=[
     path('sim/',views.ListPhoneNumber.as_view()),
      path('<int:pk>/', views.DetailSimApp.as_view()),
      path('find/<str:number_>/', views.FindSim.as_view()),
+     path('details',views.getRoutes)
 ]
 

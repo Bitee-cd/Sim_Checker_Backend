@@ -43,25 +43,44 @@ Start the server
 
 ## API Reference
 
-#### Get all items
+#### Get all Routes of API
+
+```http
+  GET https://sim-checker.vercel.app/phone_number/details/
+```
+
+#### Get all phone numbers
 
 ```http
   GET https://sim-checker.vercel.app/phone_number/
 ```
 
-| URL | Params    | Description                |
-| :-------- | :------- | :------------------------- |
-| `https://sim-checker.vercel.app/` | `/phone_number` | Json of all sims |
 
-#### Get item
+#### Get all sim networks 
+
+```http
+  GET https://sim-checker.vercel.app/phone_number/sim/
+```
+
+
+
+#### Get Details using Id
 
 ```http
   GET https://sim-checker.vercel.app/phone_number/${id}
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+#### Find Details using Phone Number
+
+```http
+  GET https://sim-checker.vercel.app/phone_number/find/${phone_number}
+```
+
+| Parameter |First 4 digits of a phone number OR First 5 digits for numbers starting with 0702       |
+| Returns 
+ - Json file containing data(details of number) and message successful
+ - error 404 if number not found with a message
+
 
 
 
@@ -72,4 +91,4 @@ Start the server
 
 ## Data gotten from
  - [Wikipedia](https://en.wikipedia.org/wiki/Telephone_numbers_in_Nigeria)
- 
+  

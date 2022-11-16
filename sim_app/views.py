@@ -6,6 +6,22 @@ from sim_app.models import SimNetwork
 from sim_app.serializers import SimAppSerializer
 from sim_app.serializers import SimSerializer
 from rest_framework import status
+from rest_framework.decorators import api_view
+ 
+ 
+
+@api_view(['GET'])
+def getRoutes(request):
+    routes ={
+        "list of all phone numbers":"{baseUrl}/phone_number/",
+        "list of all sim":"{baseUrl}/phone_number/sim",
+        "detail of sim":"{baseUrl}/phone_number/{id}",
+        "find details of sim":"{baseUrl}/phone_number/find/{number}"
+
+    }
+    return Response(routes)
+
+
 
 class ListSim(APIView):
     def get(self,request):
